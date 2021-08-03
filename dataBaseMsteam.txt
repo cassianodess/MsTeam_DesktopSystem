@@ -1,0 +1,17 @@
+create database msteam;
+use msteam;
+
+create table aluno(
+id int not null auto_increment primary key,
+nome varchar(50) not null,
+sobrenome varchar(50) not null,
+nascimento date not null,
+endereco varchar(50) not null,
+cpf varchar(14) unique,
+telefone varchar(14)
+);
+
+desc aluno;
+insert into alalunouno (nome, sobrenome, nascimento, endereco, cpf, telefone) values
+('Cassiano', 'de Souza', '1995-06-27', 'Rua Santa Barbara', '149.385.527-10', '(21)97337-3791');
+select * from aluno;
