@@ -1,5 +1,5 @@
 # MsTeam_DesktopSystem
- Projeto em Java, feito para administração da academia Ms-Team Jiu-Jitsu com integração com banco de dados.
+ Sistema Desktop em Java, feito para administração da academia Ms-Team Jiu-Jitsu com integração ao banco de dados MySQL.
  
  ## Tela de Login
  ![telaLogin](https://user-images.githubusercontent.com/71332818/127786604-e61b1a66-f4db-4a24-973b-669c5806d466.png)
